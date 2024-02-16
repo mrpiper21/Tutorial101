@@ -26,7 +26,7 @@ const HomeScreen = () => {
         className="space-y-6 "
       >
         {/** Avatar and notification session */}
-        <View className="flex-row justify-between item-center bg-amber-400 py-5 pt-10 px-2">
+        <View className="flex-row justify-between item-center bg-amber-400 py-5 pt-10 px-2 ">
           <Avatar
             rounded
             icon={{ name: "user", type: "font-awesome" }}
@@ -69,71 +69,72 @@ const HomeScreen = () => {
         {/**Categories List */}
         <ScrollView horizontal={true} className="flex-row">
           <View
-            className="rounded-full item-center bg-slate-100 px-3 justify-center mx-3"
-            style={{ height: wp(23) }}
+            className="rounded-full item-center bg-amber-300 px-3 justify-center mx-3"
+            style={{ height: wp(20) }}
           >
             <LottieView
               source={require("../../assets/loaders/catIcon1.json")}
               autoPlay
               loop
-              style={{ width: wp(18), height: hp(18) }}
+              style={{ width: wp(15), height: hp(15) }}
             />
           </View>
           <View
-            className="rounded-full item-center bg-slate-100 px-3 justify-center mx-3"
-            style={{ height: wp(23) }}
+            className="rounded-full item-center bg-amber-300 px-3 justify-center mx-3"
+            style={{ height: wp(20) }}
           >
             <LottieView
               source={require("../../assets/loaders/catIcon1.json")}
               autoPlay
               loop
-              style={{ width: wp(18), height: hp(18) }}
+              style={{ width: wp(15), height: hp(15) }}
             />
           </View>
           <View
-            className="rounded-full item-center bg-slate-100 px-3 justify-center mx-3"
-            style={{ height: wp(23) }}
+            className="rounded-full item-center bg-amber-300 px-3 justify-center mx-3"
+            style={{ height: wp(20) }}
           >
             <LottieView
               source={require("../../assets/loaders/catIcon1.json")}
               autoPlay
               loop
-              style={{ width: wp(18), height: hp(18) }}
+              style={{ width: wp(15), height: hp(15) }}
             />
           </View>
           <View
-            className="rounded-full item-center bg-slate-100 px-3 justify-center mx-3"
-            style={{ height: wp(23) }}
+            className="rounded-full item-center bg-amber-300 px-3 justify-center mx-3"
+            style={{ height: wp(20) }}
           >
             <LottieView
               source={require("../../assets/loaders/catIcon1.json")}
               autoPlay
               loop
-              style={{ width: wp(18), height: hp(18) }}
+              style={{ width: wp(15), height: hp(15) }}
             />
           </View>
           <View
-            className="rounded-full item-center bg-slate-100 px-3 justify-center mx-3"
-            style={{ height: wp(23) }}
+            className="rounded-full item-center bg-amber-300 px-3 justify-center mx-3"
+            style={{ height: wp(20) }}
           >
             <LottieView
               source={require("../../assets/loaders/catIcon1.json")}
               autoPlay
               loop
-              style={{ width: wp(18), height: hp(18) }}
+              style={{ width: wp(15), height: hp(15) }}
             />
           </View>
           <View
-            className="rounded-full item-center bg-slate-100 px-3 justify-center mx-3"
-            style={{ height: wp(23) }}
+            className="rounded-full item-center bg-amber-300 px-3 justify-center mx-3"
+            style={{ height: wp(20) }}
           >
             <LottieView
               source={require("../../assets/loaders/catIcon1.json")}
               autoPlay
               loop
-              style={{ width: wp(18), height: hp(18) }}
+              style={{ width: wp(15), height: hp(15) }}
             />
           </View>
+          
         </ScrollView>
         {/**Product List */}
       </ScrollView>
